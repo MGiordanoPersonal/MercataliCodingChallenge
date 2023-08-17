@@ -1,0 +1,68 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: "Verdana", "serif";
+}
+
+.container{
+  border-radius: 20px;
+  background-color: RGBA(0,0,0,0.5);
+  width: 60%;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+nav{
+  background-color: #00DD00;
+  border: 1px solid #00DD00;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+header{
+  text-align: center;
+}
+
+.logo{
+  width: 20%;
+}
+
+h1{
+  color: #00DD00;
+}
+
+section{
+  margin: 25px 60px;
+    color: white;
+}
+
+span{
+  font-size: 25px;
+}
+
+p.Via::before{
+ content: "\2192";
+}
+
+/*Barre stato carica*/
+.charge{
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.low{
+  background-color: #BE4141;
+  width: 10%;
+}
+
+.mid{
+  background-color: #F5B453;
+  width: 30%;
+}
+
+.high{
+  background-color: #00DD00;
+  width: 50%;
+}
